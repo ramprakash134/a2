@@ -1,0 +1,143 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.header {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #ffffff;
+    position: relative;
+}
+
+.logo {
+    font-size: 32px;
+    font-weight: bold;
+    color: #5c67f2;
+    margin-bottom: 10px;
+}
+
+.avatar-container {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.avatar-group {
+    position: relative;
+    display: inline-block;
+}
+
+.avatar {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    border: 3px solid #fff;
+    position: absolute;
+    object-fit: cover;
+}
+
+.avatar1 { top: -80px; left: -300px; }
+.avatar2 { top: -40px; left: -200px; }
+.avatar3 { top: -110px; left: -200px; }
+.avatar4 { top: -110px; right: -200px; }
+.avatar5 { top: -80px; right: -300px; }
+.avatar6 { top: -40px; right: -200px; }
+
+h1 {
+    font-size: 36px;
+    margin-top: 60px;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    margin-top: 10px;
+    color: #666;
+}
+
+.buttons {
+    margin-top: 30px;
+}
+
+.download-btn, .info-btn {
+    padding: 10px 20px;
+    font-size: 16px;
+    margin: 5px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.download-btn {
+    background-color: #5c67f2;
+    color: #fff;
+}
+
+.info-btn {
+    background-color: #ae65f1;
+    color: #fff;
+}
+
+.section-one {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #f7f9fc;
+}
+
+.section-one h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.section-one p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.image-gallery {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.image-gallery img {
+    width: 250px;
+    height: 180px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.section-two {
+    text-align: center;
+    padding: 50px 20px;
+    background-color: #dbe8ff;
+}
+
+.section-two h2 {
+    font-size: 28px;
+    color: #333;
+}
+
+.section-two p {
+    font-size: 18px;
+    color: #666;
+    margin-top: 20px;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
